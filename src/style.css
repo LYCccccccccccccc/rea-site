@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 30% 20%, #1b2440, #0a0d16 65%);
+  color: #e8ecf6;
+}
+.wrap {
+  text-align: center;
+  padding: 48px 56px;
+  border: 1px solid #2a3550;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+h1 {
+  margin: 0 0 8px;
+  font-size: 44px;
+  letter-spacing: 6px;
+}
+.sub {
+  margin: 0 0 24px;
+  color: #8fa0c4;
+}
+button {
+  font: inherit;
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: 1px solid #3b62ff;
+  background: #2f4fe0;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #3b62ff;
+}
+.tip {
+  margin-top: 22px;
+  font-size: 13px;
+  color: #6f7f9f;
+}
